@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_140sdp"
+        android:gravity="center"
+        android:text="@string/txt_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_45sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_116sdp"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:contentDescription="@string/txt_share"
+            android:src="@drawable/svg_share"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:contentDescription="@string/txt_start_game"
+            android:onClick="onNextClick"
+            android:src="@drawable/svg_play_icon"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:contentDescription="@string/txt_rate_us"
+            android:src="@drawable/svg_stars_icon" />
+    </LinearLayout>
+
+</RelativeLayout>

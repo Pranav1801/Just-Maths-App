@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Just Maths</string>
+    <string name="txt_title">Just Maths</string>
+    <string name="txt_share">share</string>
+    <string name="txt_start_game">Start Game</string>
+    <string name="txt_rate_us">Rate Us</string>
+    <string name="txt_score">"Score: "</string>
+    <string name="score">Score</string>
+    <string name="total_score">Total Score</string>
+    <string name="wrong_questions">Wrong Questions:</string>
+    <string name="right_questions">Right Questions:</string>
+    <string name="total_questions_attempted">Total Questions Attempted:</string>
+    <string name="time">Time:</string>
+    <string name="num1_num2">Num1 + Num2</string>
+    <string name="num3">= Num3</string>
+    <string name="right">Right</string>
+    <string name="wrong">Wrong</string>
+</resources>
